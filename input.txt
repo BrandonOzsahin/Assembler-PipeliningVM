@@ -1,0 +1,6 @@
+add r1 r2 r3
+subtract r1 r2 r3
+multiply r1 r2 r3
+divide r1 r2 r3
+and r5 r4 r1
+or r5 r4 r1

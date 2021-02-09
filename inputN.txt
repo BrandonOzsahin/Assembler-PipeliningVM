@@ -1,0 +1,39 @@
+add r1 r2 r2 
+add r1 r2 r3 
+and r1 r2 r3 
+divide r1 r2 r3 
+multiply r1 r2 r3 
+subtract r1 r1 r1 
+subtract r2 r2 r2 
+subtract r3 r3 r3 
+or r1 r2 r3 
+pop r1 
+pop r2 
+push r1 
+push r2 
+return 
+interrupt 1 
+addimmediate r1 10
+addimmediate r2 15 
+addimmediate r1 30 
+addimmediate r1 5 
+addimmediate r2 5 
+branchifequal r1 r2 1000
+branchifless r1 r2 1000 
+branchifequal r1 r2 1048575 
+jump 1000 
+call 444
+interrupt 0
+load r3 r2 10 
+store r1 r2 10 
+store r2 r1 15 
+addimmediate r1 -114 
+addimmediate r2 -1 
+addimmediate r2 -127 
+branchifless r1 r2 -65535 
+branchifless r1 r2 65535
+branchifless r1 r2 524286
+addimmediate r1 -127
+branchifless r1 r2 65536
+jump 134217728
+halt 
